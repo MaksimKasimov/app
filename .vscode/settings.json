@@ -1,8 +1,0 @@
-{
-"git.autoRepositoryDetection": "subFolders"
-
-"python.languageServer": "Pylance"
-"python.analysis.inlayHints.functionReturnTypes": true
-"python.analysis.typeCheckingMode": "off"
-"python.analysis.diagnosticMode": "openFilesOnly"
-}
