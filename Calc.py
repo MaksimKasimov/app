@@ -1,20 +1,26 @@
+"""Программа калькулятор на русском языке"""
+import time
 
-
-#lang = 'EN'
-#lang_opt = input('Enter L to change language or other key to conrinue>> ')
-prodolzhit = 'y'
-while prodolzhit == 'y':
-    f_num = float(input('Введите первое число>> '))
-    oper = input('Введите операцию>> ')
-    s_num = float(input('Введите второе число>> '))    
-    if oper == '+':
-        print(f_num + s_num)
-    elif oper == '-':
-        print(f_num - s_num)
-    elif oper == '*':
-        print(f_num * s_num)
-    elif oper == '/':
-        print(f_num / s_num)
+print(time.ctime())
+next = "y"
+while next == "y":
+    f_num = float(input("Введите первое число>> "))
+    oper = input("Введите операцию>> ")
+    s_num = float(input("Введите второе число>> "))
+    if oper == "+":
+        print('Результат сложения: ', f_num + s_num)
+    elif oper == "-":
+        print('Результат вычитания: ', f_num - s_num)
+    elif oper == "*":
+        print('Результат умножения: ', f_num * s_num)
+    elif oper == "/":
+        print('Результат деления: ', f_num / s_num)
     else:
-        print('Error')
-    prodolzhit = input("Введите 'y', чтобы продолжить, или любую клавишу, чтобы завершить>> ")
+        print("Error")
+    next = input(
+        "Введите 'y', чтобы продолжить, или любую клавишу, чтобы завершить>> "
+    )
+    if next == "y":
+        next = "y"
+    else:
+        print("Goodbay !")
