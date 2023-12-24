@@ -14,7 +14,7 @@ while next == "y":
     if oper == "+":
         print('Результат сложения: ', f_num + s_num)
     elif oper == "-":
-        print('Результат вычитания: ', f_num - s_num)
+        print('Результат вычетания: ', f_num - s_num)
     elif oper == "*":
         print('Результат умножения: ', f_num * s_num)
     elif oper == "/":
