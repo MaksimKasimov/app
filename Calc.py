@@ -1,4 +1,8 @@
-"""Программа калькулятор на русском языке"""
+def print_name():
+    print('Программа калькулятор на русском языке')
+
+print_name()
+
 import time
 
 print(time.ctime())
